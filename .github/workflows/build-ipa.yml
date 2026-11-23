@@ -21,6 +21,11 @@ jobs:
       - name: Generate Xcode project
         run: xcodegen generate
 
+      - name: Build Rust FFI (AirliftFFI.xcframework)
+        run: |
+          export DEVELOPER_DIR=$(xcode-select -p)
+          ./build-ios.sh
+
       - name: Build unsigned IPA
         run: ./build-ipa.sh
 
