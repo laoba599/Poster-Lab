@@ -9,14 +9,34 @@
             "state" : "translated",
             "value" : " copy"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : " 副本",
+            "state" : "translated"
+          }
         }
       }
     },
     ".passthm format" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : ".passthm 格式",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "“Exits…” flies the object off-screen on the Home Screen. “Flies in…” means the object rests on the Home Screen and isn’t on the Lock Screen — it appears from off-screen during the transition." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "“移出…”会让对象在主屏幕上飞出屏幕外。“飞入…”表示对象停留在主屏幕上、锁定屏幕上没有它——它会在过渡期间从屏幕外飞入。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "«Уходит…» — объект улетает за экран на рабочем столе. «Влетает…» — объект лежит на рабочем столе, а на блокировке его нет: он появляется из-за экрана при переходе." : {
       "extractionState" : "stale",
@@ -26,20 +46,54 @@
             "state" : "translated",
             "value" : "“Exits…” flies the object off-screen on the Home Screen. “Flies in…” means the object rests on the Home Screen and isn’t on the Lock Screen — it appears from off-screen during the transition."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "“移出…”会让对象在主屏幕上飞出屏幕外。“飞入…”表示对象停留在主屏幕上、锁定屏幕上没有它——它会在过渡期间从屏幕外飞入。",
+            "state" : "translated"
+          }
         }
       }
     },
     "@gerdaroot" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "@gerdaroot",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "#%@" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "#%@",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "%.1f×" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "%.1f×",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "%@" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "%@",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "%@ (%@)" : {
       "localizations" : {
@@ -47,6 +101,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "%1$@ (%2$@)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "%@ (%@)",
+            "state" : "translated"
           }
         }
       }
@@ -58,6 +118,12 @@
             "state" : "new",
             "value" : "%1$@ item%2$@"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "%@ 项",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -67,6 +133,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "%1$@ keys · %2$@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "%1$@ 个按键 · %2$@",
+            "state" : "translated"
           }
         }
       }
@@ -78,17 +150,44 @@
             "state" : "new",
             "value" : "%1$@ kf · %2$@%3$@%4$@"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "%1$@ 关键帧 · %2$@%3$@%4$@",
+            "state" : "translated"
+          }
         }
       }
     },
     "%@ Wallpapers Imported" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "%@ 张壁纸已导入",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "•" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "•",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "• In iLoader: Settings › Export Pairing File › save to Files.\n• In Jitterbug: Export your <UDID>.mobiledevicepairing.\n• On PC/Mac: Run jitterbugpair or export from SideServer / AltServer, then AirDrop to your iPhone." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "• 在 iLoader 中：设置 › 导出配对文件 › 保存到“文件”。\n• 在 Jitterbug 中：导出你的 <UDID>.mobiledevicepairing。\n• 在电脑/Mac 上：运行 jitterbugpair，或从 SideServer / AltServer 导出，然后隔空投送到你的 iPhone。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "1 оборот за 30 c" : {
       "extractionState" : "stale",
@@ -97,6 +196,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 turn per 30s"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "每 30 秒转 1 圈",
+            "state" : "translated"
           }
         }
       }
@@ -109,20 +214,54 @@
             "state" : "translated",
             "value" : "6 spinning copies in a ring"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "环形排列的 6 个旋转副本",
+            "state" : "translated"
+          }
         }
       }
     },
     "Add animation" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "添加动画",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Add Hash" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "添加哈希",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Added to Library ✓" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "已添加到图库 ✓",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Animation not found" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "未找到动画",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Apply — обои появятся в галерее PosterBoard на экране блокировки." : {
       "extractionState" : "stale",
@@ -132,77 +271,244 @@
             "state" : "translated",
             "value" : "Apply — the wallpaper appears in the PosterBoard gallery on the Lock Screen."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "应用——壁纸将出现在锁定屏幕上的 PosterBoard 图库中。",
+            "state" : "translated"
+          }
         }
       }
     },
     "Apply to" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "应用到",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Assign Card Skin" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "指定卡片皮肤",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Autoreverse (play back and forth)" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "自动反向（来回播放）",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Blend" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "混合",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Cancel Pairing" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "取消配对",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Card #%@" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "卡片 #%@",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Choose another image or try downloading the photo to your iPhone first." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "请选择另一张图片，或先把照片下载到 iPhone 上再试。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Circle Buttons" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "圆形按钮",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Clear" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "清除",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Clear All" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "全部清除",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Clockwise" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "顺时针",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Cut out subject" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "抠出主体",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Delete Pairing File" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "删除配对文件",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Developer" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "开发者",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Device IP:" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "设备 IP：",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Discovered in Documents:" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "在“文件”中找到：",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Drag anywhere on the dialer preview to reposition" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "在拨号盘预览上任意拖动以调整位置",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Drag preview to reposition" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "拖动预览以调整位置",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Drag to position. Pinch to zoom." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "拖动以定位，双指捏合以缩放。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Easing" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "缓动",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Effect" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "效果",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "ENTER THIS PIN ON THIS IPHONE:" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "请在这台 IPHONE 上输入此 PIN 码：",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Export .passthm..." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "导出 .passthm…",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Fast mode selected: only targets %@ with %@." : {
       "localizations" : {
@@ -211,17 +517,44 @@
             "state" : "new",
             "value" : "Fast mode selected: only targets %1$@ with %2$@."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "已选择快速模式：仅针对 %@（%@）。",
+            "state" : "translated"
+          }
         }
       }
     },
     "Files app › On My iPhone › PosterLab" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "“文件”App › 我的 iPhone › PosterLab",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Flash" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "刷入",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Flash & Language Target" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "刷入目标和语言",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Flash %@ Wallpaper%@" : {
       "localizations" : {
@@ -230,302 +563,994 @@
             "state" : "new",
             "value" : "Flash %1$@ Wallpaper%2$@"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "刷入 %@ 张壁纸",
+            "state" : "translated"
+          }
         }
       }
     },
     "Flash Theme to iPhone" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "将主题刷入 iPhone",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Flashing Theme…" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "正在刷入主题…",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Flashing Wallpapers…" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "正在刷入壁纸…",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Flashing will automatically trigger NeoSpring to respring the device and apply your new wallpapers." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "刷入将自动触发 NeoSpring 重新加载设备，以应用你的新壁纸。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Flashing…" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "正在刷入…",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Font Weight / Style" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "字重 / 样式",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Force PosterBoard Cache Refresh" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "强制刷新 PosterBoard 缓存",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "G" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "G",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "GitHub" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "GitHub",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Home Screen" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "主屏幕",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "id: %@" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "id：%@",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "If you run SideStore inside LiveContainer, the pairing file is stored inside LiveContainer's app storage:" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "如果你在 LiveContainer 内运行 SideStore，配对文件保存在 LiveContainer 的应用存储中：",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "iLoader / Jitterbug / AltStore" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "iLoader / Jitterbug / AltStore",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Import Pairing File Now" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "立即导入配对文件",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Import Pairing File…" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "导入配对文件…",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "It will immediately appear under 'Discovered in Documents' in PosterLab." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "它会立即出现在 PosterLab 的“在“文件”中找到”栏目中。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Key %@" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "按键 %@",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Keyframes (%@)" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "关键帧（%@）",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Layer" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "图层",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Live Scanner Active" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "实时扫描已开启",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "LiveContainer (SideStore inside)" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "LiveContainer（内置 SideStore）",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Lock Screen" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "锁定屏幕",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Manual Drop in Files App" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "在“文件”App 中手动放入",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Move photo down" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "将照片下移",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Move photo left" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "将照片左移",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Move photo right" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "将照片右移",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Move photo up" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "将照片上移",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Movement" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "移动",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Name for the .tendies file" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : ".tendies 文件名",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "No .tendies wallpapers loaded yet" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "尚未加载任何 .tendies 壁纸",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "No animations yet. Add one — any CoreAnimation keyPath with your own keyframes." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "暂无动画。添加一个——任意 CoreAnimation keyPath，配上你自己的关键帧。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "No Cards Yet" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "暂无卡片",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "No layers yet. Tap “Add”." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "暂无图层。点按“添加”。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "No wallpapers yet" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "暂无壁纸",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Not Paired" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "未配对",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "On My iPhone › LiveContainer › SideStore › Documents › ALTPairingFile.mobiledevicepairing" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "我的 iPhone › LiveContainer › SideStore › Documents › ALTPairingFile.mobiledevicepairing",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "On My iPhone › SideStore › ALTPairingFile.mobiledevicepairing" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "我的 iPhone › SideStore › ALTPairingFile.mobiledevicepairing",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Paired & Ready" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "已配对，可以开始",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Passcode-theme standard from the Cowabunga / Nugget ecosystem" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "来自 Cowabunga / Nugget 生态的密码主题标准",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Path in Files app:" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "“文件”App 中的路径：",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "PHOTO" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "照片",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Pick a name for this passcode theme — it'll show up in your library." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "为这个密码主题起个名字——它会显示在你的图库中。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Plays when the Lock Screen wakes and when revealing the Home Screen." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "在锁定屏幕唤醒时和显示主屏幕时播放。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "PosterBoard container will be auto-detected automatically on flash." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "刷入时会自动检测 PosterBoard 容器。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "PosterLab" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "PosterLab",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "PosterLab can import pairing files exported by SideStore, Idevice_pair, iLoader, or your computer." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "PosterLab 可以导入由 SideStore、Idevice_pair、iLoader 或你的电脑导出的配对文件。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Preview the transition in the emulator (▶︎ at the top, swipe up)." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "在模拟器中预览过渡效果（顶部 ▶︎，向上滑动）。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Recommended" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "推荐",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Remove / Unload Theme" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "移除 / 卸载主题",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Repeat forever" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "无限重复",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Resets file protections so iOS re-indexes wallpapers immediately" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "重置文件保护，让 iOS 立即重新索引壁纸",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Respring (NeoSpring)" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "重新加载（NeoSpring）",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Retry" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "重试",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Retry Flash Theme" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "重试刷入主题",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Save to Library" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "保存到图库",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Saved Themes · %@" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "已保存的主题 · %@",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Scan your Apple Pay cards or add hashes manually." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "扫描你的 Apple Pay 卡片，或手动添加哈希。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Scanner Status" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "扫描器状态",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Seamless Poster" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "无缝海报",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Select a layer on the canvas." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "在画布上选择一个图层。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Settings › Privacy & Security › Developer Mode › Pair with PosterLab" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "设置 › 隐私与安全性 › 开发者模式 › 与 PosterLab 配对",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Setup LocalDevVPN:" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "设置 LocalDevVPN：",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "SideStore" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "SideStore",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "SideStore automatically creates a pairing file during setup. You can pick it directly in the Files app:" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "SideStore 会在设置过程中自动创建配对文件。你可以直接在“文件”App 中选择它：",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Spin forever" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "无限旋转",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "STICKERS" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "贴纸",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Supports .mobiledevicepairing, .plist, or .mobilepair exported from SideStore, iLoader, AltStore, Jitterbug, or Mac/PC." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "支持从 SideStore、iLoader、AltStore、Jitterbug 或 Mac/PC 导出的 .mobiledevicepairing、.plist 或 .mobilepair 文件。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "swipe up" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "向上滑动",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "System Caches" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "系统缓存",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "System Language" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "系统语言",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Tap 'Choose .tendies from Files' or copy wallpapers into On My iPhone › PosterLab." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "点按“从‘文件’中选择 .tendies”，或将壁纸复制到“我的 iPhone › PosterLab”。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Tap + and build your first wallpaper\nfrom backgrounds, text and your photos." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "点按 +，用背景、文字和你的照片制作第一张壁纸。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Tap a button row to assign a custom image." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "点按一行按钮以指定自定义图片。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Tap to choose photo" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "点按以选择照片",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Target: PosterBoard container detected ✅" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "目标：已检测到 PosterBoard 容器 ✅",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "TelephonyUI-8 (iOS 14–15)" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "TelephonyUI-8（iOS 14–15）",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "TelephonyUI-9 (iOS 16–17)" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "TelephonyUI-9（iOS 16–17）",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "TelephonyUI-10 (iOS 18+)" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "TelephonyUI-10（iOS 18+）",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "TEXT" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "文字",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "The active pairing credentials will be removed so you can re-pair or import another file." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "将移除当前配对凭据，以便你重新配对或导入另一个文件。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "The file is a standard PosterBoard poster (Core Animation layers). It works through customization tools; no jailbreak required." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "该文件是标准的 PosterBoard 海报（Core Animation 图层），可通过自定义工具使用，无需越狱。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "The subject goes in front of the clock (depth effect)" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "主体置于时钟前方（景深效果）",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Time: 0 = animation start, 1 = animation end. Value is in CoreAnimation units — same keyPath you'd use in CAPlayground." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "时间：0 = 动画开始，1 = 动画结束。数值以 CoreAnimation 单位计——与在 CAPlayground 中使用的 keyPath 相同。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Timing" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "时间",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Universal (All)" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "通用（全部）",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Universal mode flashes ~600 files for all languages & Bold text. Selecting a specific language (e.g. Ukrainian) speeds up flashing dramatically." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "通用模式会为所有语言和粗体文字刷入约 600 个文件。选择特定语言（例如乌克兰语）可大幅加快刷入速度。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "v1.0" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "v1.0",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Visible on Home Screen" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "在主屏幕上可见",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Visible on Lock Screen" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "在锁定屏幕上可见",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Wallpaper studio, wallet skins & passcode themes" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "壁纸工作室、钱包卡片皮肤与密码主题",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Wallpapers · Wallet Skins · Passcode Themes" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "壁纸 · 钱包卡片皮肤 · 密码主题",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Wallpapers Gallery" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "壁纸图库",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Where to find SideStore / LiveContainer pairing file?" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "在哪里找到 SideStore / LiveContainer 的配对文件？",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Where to find your pairing file" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "在哪里找到你的配对文件",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "You can add multiple hashes at once — separate them with spaces, commas, or newlines." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "你可以一次添加多个哈希——用空格、逗号或换行分隔。",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "You can also copy any .mobiledevicepairing or .plist file directly into:" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "你也可以将任意 .mobiledevicepairing 或 .plist 文件直接复制到：",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Zoom" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "缩放",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Zoom & Framing" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "缩放与取景",
+            "state" : "translated"
+          }
+        }
+      }
     },
     "Анимация вращения" : {
       "extractionState" : "stale",
@@ -534,6 +1559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spin animation"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "旋转动画",
+            "state" : "translated"
           }
         }
       }
@@ -546,6 +1577,12 @@
             "state" : "translated",
             "value" : "Reveal animation"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "出现动画",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -556,6 +1593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Arabic-Indic"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "阿拉伯-印度数字",
+            "state" : "translated"
           }
         }
       }
@@ -568,6 +1611,12 @@
             "state" : "translated",
             "value" : "Untitled"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "未命名",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -578,6 +1627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lock Screen"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "锁定屏幕",
+            "state" : "translated"
           }
         }
       }
@@ -590,6 +1645,12 @@
             "state" : "translated",
             "value" : "A large offset moves the object off-screen on the Home Screen. Turn off “Visible on Lock Screen” for another layer so it appears only on the Home Screen."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "大幅偏移会让对象移出主屏幕画面。关闭另一图层的“在锁定屏幕上可见”，可让它仅在主屏幕上出现。",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -600,6 +1661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Visible on Lock Screen"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "在锁定屏幕上可见",
+            "state" : "translated"
           }
         }
       }
@@ -612,6 +1679,12 @@
             "state" : "translated",
             "value" : "Visible on Home Screen"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "在主屏幕上可见",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -622,6 +1695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flies in from top"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "从顶部飞入",
+            "state" : "translated"
           }
         }
       }
@@ -634,6 +1713,12 @@
             "state" : "translated",
             "value" : "Flies in from left"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "从左侧飞入",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -644,6 +1729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flies in from bottom"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "从底部飞入",
+            "state" : "translated"
           }
         }
       }
@@ -656,6 +1747,12 @@
             "state" : "translated",
             "value" : "Flies in from right"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "从右侧飞入",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -666,6 +1763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "All layers"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "所有图层",
+            "state" : "translated"
           }
         }
       }
@@ -678,6 +1781,12 @@
             "state" : "translated",
             "value" : "Choose Wallpaper → Import and select your .tendies."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "选择“壁纸 → 导入”，然后选取你的 .tendies。",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -688,6 +1797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Select a layer on the canvas."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "在画布上选择一个图层。",
+            "state" : "translated"
           }
         }
       }
@@ -700,6 +1815,12 @@
             "state" : "translated",
             "value" : "Choose photo"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "选择照片",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -710,6 +1831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choose background photo"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "选择背景照片",
+            "state" : "translated"
           }
         }
       }
@@ -722,6 +1849,12 @@
             "state" : "translated",
             "value" : "Cut out subject"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "抠出主体",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -732,6 +1865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cutting out subject…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "正在抠出主体…",
+            "state" : "translated"
           }
         }
       }
@@ -744,6 +1883,12 @@
             "state" : "translated",
             "value" : "Up"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "向上",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -754,6 +1899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Depth & blending"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "深度与混合",
+            "state" : "translated"
           }
         }
       }
@@ -766,6 +1917,12 @@
             "state" : "translated",
             "value" : "Done"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "完成",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -776,6 +1933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ready to export"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "可导出",
+            "state" : "translated"
           }
         }
       }
@@ -788,6 +1951,12 @@
             "state" : "translated",
             "value" : "Date"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "日期",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -798,6 +1967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Movement"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "移动",
+            "state" : "translated"
           }
         }
       }
@@ -810,6 +1985,12 @@
             "state" : "translated",
             "value" : "Devanagari"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "天城文",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -820,6 +2001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Duration, s"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "时长（秒）",
+            "state" : "translated"
           }
         }
       }
@@ -832,6 +2019,12 @@
             "state" : "translated",
             "value" : "Add"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "添加",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -842,6 +2035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add layer"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "添加图层",
+            "state" : "translated"
           }
         }
       }
@@ -854,6 +2053,12 @@
             "state" : "translated",
             "value" : "Add text"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "添加文字",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -864,6 +2069,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rain"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "雨",
+            "state" : "translated"
           }
         }
       }
@@ -876,6 +2087,12 @@
             "state" : "translated",
             "value" : "Home Screen"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "主屏幕",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -886,6 +2103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Duplicate"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "复制",
+            "state" : "translated"
           }
         }
       }
@@ -898,6 +2121,12 @@
             "state" : "translated",
             "value" : "Bold"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "粗体",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -908,6 +2137,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Title"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "标题",
+            "state" : "translated"
           }
         }
       }
@@ -920,6 +2155,12 @@
             "state" : "translated",
             "value" : "Sunset"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "日落",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -930,6 +2171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Close"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "关闭",
+            "state" : "translated"
           }
         }
       }
@@ -942,6 +2189,12 @@
             "state" : "translated",
             "value" : "Lighten"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "变亮",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -952,6 +2205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Darken"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "变暗",
+            "state" : "translated"
           }
         }
       }
@@ -964,6 +2223,12 @@
             "state" : "translated",
             "value" : "Stars"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "星星",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -974,6 +2239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Name"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "名称",
+            "state" : "translated"
           }
         }
       }
@@ -986,6 +2257,12 @@
             "state" : "translated",
             "value" : "CARDHOLDER NAME"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "持卡人姓名",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -996,6 +2273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exclusion"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "排除",
+            "state" : "translated"
           }
         }
       }
@@ -1008,6 +2291,12 @@
             "state" : "translated",
             "value" : "Embers"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "余烬",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1018,6 +2307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Card"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "卡片",
+            "state" : "translated"
           }
         }
       }
@@ -1030,6 +2325,12 @@
             "state" : "translated",
             "value" : "Font size"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "字号",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1040,6 +2341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Confetti"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "五彩纸屑",
+            "state" : "translated"
           }
         }
       }
@@ -1052,6 +2359,12 @@
             "state" : "translated",
             "value" : "Spin forever"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "无限旋转",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1062,6 +2375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Petals"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "花瓣",
+            "state" : "translated"
           }
         }
       }
@@ -1074,6 +2393,12 @@
             "state" : "translated",
             "value" : "Linear Dodge"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "线性减淡",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1084,6 +2409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Scale"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "缩放",
+            "state" : "translated"
           }
         }
       }
@@ -1096,6 +2427,12 @@
             "state" : "translated",
             "value" : "Scale (Home Screen)"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "缩放（主屏幕）",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1106,6 +2443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Monospaced"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "等宽",
+            "state" : "translated"
           }
         }
       }
@@ -1118,6 +2461,12 @@
             "state" : "translated",
             "value" : "My card"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "我的卡片",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1128,6 +2477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Soft"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "柔和",
+            "state" : "translated"
           }
         }
       }
@@ -1140,6 +2495,12 @@
             "state" : "translated",
             "value" : "Soft Screen blend"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "柔和滤色混合",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1150,6 +2511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "文字",
+            "state" : "translated"
           }
         }
       }
@@ -1162,6 +2529,12 @@
             "state" : "translated",
             "value" : "Tap + and build your first wallpaper\nfrom backgrounds, text and your photos."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "点按 +，用背景、文字和你的照片制作第一张壁纸。",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1172,6 +2545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Name"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "名称",
+            "state" : "translated"
           }
         }
       }
@@ -1184,6 +2563,12 @@
             "state" : "translated",
             "value" : "Start from a template"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "从模板开始",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1194,6 +2579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couldn't cut out the subject — added the full photo."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "无法抠出主体——已添加整张照片。",
+            "state" : "translated"
           }
         }
       }
@@ -1206,6 +2597,12 @@
             "state" : "translated",
             "value" : "Couldn't load the photo."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "无法加载照片。",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1216,6 +2613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couldn't find a subject — added the full photo."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "未找到主体——已添加整张照片。",
+            "state" : "translated"
           }
         }
       }
@@ -1228,6 +2631,12 @@
             "state" : "translated",
             "value" : "Couldn't render the image."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "无法渲染图片。",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1238,6 +2647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couldn't render the layer."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "无法渲染图层。",
+            "state" : "translated"
           }
         }
       }
@@ -1250,6 +2665,12 @@
             "state" : "translated",
             "value" : "Couldn't package the .tendies."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "无法打包 .tendies。",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1260,6 +2681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "None"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "无",
+            "state" : "translated"
           }
         }
       }
@@ -1272,6 +2699,12 @@
             "state" : "translated",
             "value" : "No access to your photo library. Allow it in Settings → PosterLab."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "无法访问你的照片图库。请在“设置 → PosterLab”中允许访问。",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1282,6 +2715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Down"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "向下",
+            "state" : "translated"
           }
         }
       }
@@ -1294,6 +2733,12 @@
             "state" : "translated",
             "value" : "New wallpaper"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "新壁纸",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1304,6 +2749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Update PNG"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "更新 PNG",
+            "state" : "translated"
           }
         }
       }
@@ -1316,6 +2767,12 @@
             "state" : "translated",
             "value" : "Turns"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "圈数",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1326,6 +2783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "subject cutout"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "主体抠图",
+            "state" : "translated"
           }
         }
       }
@@ -1338,6 +2801,12 @@
             "state" : "translated",
             "value" : "The subject goes in front of the clock (depth effect)"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "主体置于时钟前方（景深效果）",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1348,6 +2817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Regular (1234)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "常规（1234）",
+            "state" : "translated"
           }
         }
       }
@@ -1360,6 +2835,12 @@
             "state" : "translated",
             "value" : "Normal"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "正常",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1370,6 +2851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Normal look, no animation"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "常规外观，无动画",
+            "state" : "translated"
           }
         }
       }
@@ -1382,6 +2869,12 @@
             "state" : "translated",
             "value" : "Rounded"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "圆角",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1392,6 +2885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Screen"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "滤色",
+            "state" : "translated"
           }
         }
       }
@@ -1404,6 +2903,12 @@
             "state" : "translated",
             "value" : "Color Dodge"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "颜色减淡",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1414,6 +2919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stays in place"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "保持不动",
+            "state" : "translated"
           }
         }
       }
@@ -1426,6 +2937,12 @@
             "state" : "translated",
             "value" : "Open Nugget"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "打开 Nugget",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1436,6 +2953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancel"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "取消",
+            "state" : "translated"
           }
         }
       }
@@ -1448,6 +2971,12 @@
             "state" : "translated",
             "value" : "Send the .tendies to Files or straight to the Nugget app."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "将 .tendies 发送到“文件”，或直接发送到 Nugget App。",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1458,6 +2987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Style"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "样式",
+            "state" : "translated"
           }
         }
       }
@@ -1470,6 +3005,12 @@
             "state" : "translated",
             "value" : "Overlay"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "叠加",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1480,6 +3021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lock → Home transition"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "锁定屏幕 → 主屏幕过渡",
+            "state" : "translated"
           }
         }
       }
@@ -1492,6 +3039,12 @@
             "state" : "translated",
             "value" : "Subject"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "主体",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1502,6 +3055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Subject (in front of clock)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "主体（时钟前方）",
+            "state" : "translated"
           }
         }
       }
@@ -1514,6 +3073,12 @@
             "state" : "translated",
             "value" : "Smooth spin"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "平滑旋转",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1524,6 +3089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Density"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "密度",
+            "state" : "translated"
           }
         }
       }
@@ -1536,6 +3107,12 @@
             "state" : "translated",
             "value" : "Clockwise"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "顺时针",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1546,6 +3123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Screen behavior"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "屏幕行为",
+            "state" : "translated"
           }
         }
       }
@@ -1558,6 +3141,12 @@
             "state" : "translated",
             "value" : "In front of clock"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "时钟前方",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1568,6 +3157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rotation"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "旋转",
+            "state" : "translated"
           }
         }
       }
@@ -1580,6 +3175,12 @@
             "state" : "translated",
             "value" : "Share .tendies"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "分享 .tendies",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1590,6 +3191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Share PNG"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "分享 PNG",
+            "state" : "translated"
           }
         }
       }
@@ -1602,6 +3209,12 @@
             "state" : "translated",
             "value" : "Label"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "标签",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1612,6 +3225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No wallpapers yet"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "暂无壁纸",
+            "state" : "translated"
           }
         }
       }
@@ -1624,6 +3243,12 @@
             "state" : "translated",
             "value" : "Midnight"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "午夜",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1634,6 +3259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Monday\nSeptember 29"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "星期一\n9 月 29 日",
+            "state" : "translated"
           }
         }
       }
@@ -1646,6 +3277,12 @@
             "state" : "translated",
             "value" : "Reveal"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "出现",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1656,6 +3293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zoom in"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "放大",
+            "state" : "translated"
           }
         }
       }
@@ -1668,6 +3311,12 @@
             "state" : "translated",
             "value" : "Apply"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "应用",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1678,6 +3327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Apply to"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "应用到",
+            "state" : "translated"
           }
         }
       }
@@ -1690,6 +3345,12 @@
             "state" : "translated",
             "value" : "Preview the transition in the emulator (▶︎ at the top, swipe up)."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "在模拟器中预览过渡效果（顶部 ▶︎，向上滑动）。",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1700,6 +3361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Test the transition in the emulator (▶︎ button at the top)."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "可在模拟器中测试过渡效果（顶部 ▶︎ 按钮）。",
+            "state" : "translated"
           }
         }
       }
@@ -1712,6 +3379,12 @@
             "state" : "translated",
             "value" : "Opacity"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "不透明度",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1722,6 +3395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plays when the Lock Screen wakes and when revealing the Home Screen."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "在锁定屏幕唤醒时和显示主屏幕时播放。",
+            "state" : "translated"
           }
         }
       }
@@ -1734,6 +3413,12 @@
             "state" : "translated",
             "value" : "Fade in"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "淡入",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1744,6 +3429,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bubbles"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "气泡",
+            "state" : "translated"
           }
         }
       }
@@ -1756,6 +3447,12 @@
             "state" : "translated",
             "value" : "Blank"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "空白",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1766,6 +3463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Home Screen"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "主屏幕",
+            "state" : "translated"
           }
         }
       }
@@ -1778,6 +3481,12 @@
             "state" : "translated",
             "value" : "Home Screen layout — flying-in layers are in place"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "主屏幕布局——飞入图层已就位",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1788,6 +3497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lock Screen layout"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "锁定屏幕布局",
+            "state" : "translated"
           }
         }
       }
@@ -1800,6 +3515,12 @@
             "state" : "translated",
             "value" : "Roman"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "罗马数字",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1810,6 +3531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "With spin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "带旋转",
+            "state" : "translated"
           }
         }
       }
@@ -1822,6 +3549,12 @@
             "state" : "translated",
             "value" : "Serif"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "衬线",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1832,6 +3565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reset"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "还原",
+            "state" : "translated"
           }
         }
       }
@@ -1844,6 +3583,12 @@
             "state" : "translated",
             "value" : "Top to bottom"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "从上到下",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1854,6 +3599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Glow"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "发光",
+            "state" : "translated"
           }
         }
       }
@@ -1866,6 +3617,12 @@
             "state" : "translated",
             "value" : "Your photo as background"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "用自己的照片作背景",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1876,6 +3633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "X offset (Home Screen)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "X 偏移（主屏幕）",
+            "state" : "translated"
           }
         }
       }
@@ -1888,6 +3651,12 @@
             "state" : "translated",
             "value" : "Y offset (Home Screen)"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "Y 偏移（主屏幕）",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1898,6 +3667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "System"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "系统",
+            "state" : "translated"
           }
         }
       }
@@ -1910,6 +3685,12 @@
             "state" : "translated",
             "value" : "Speed"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "速度",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1920,6 +3701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Corner radius"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "圆角半径",
+            "state" : "translated"
           }
         }
       }
@@ -1932,6 +3719,12 @@
             "state" : "translated",
             "value" : "No layers yet. Tap “Add”."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "暂无图层。点按“添加”。",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1942,6 +3735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Layers"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "图层",
+            "state" : "translated"
           }
         }
       }
@@ -1954,6 +3753,12 @@
             "state" : "translated",
             "value" : "Layer"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "图层",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1964,6 +3769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Layer floats above the time (depth)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "图层浮于时间上方（景深）",
+            "state" : "translated"
           }
         }
       }
@@ -1976,6 +3787,12 @@
             "state" : "translated",
             "value" : "Layer goes behind the clock"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "图层移到时钟后方",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -1986,6 +3803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "swipe up"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "向上滑动",
+            "state" : "translated"
           }
         }
       }
@@ -1998,6 +3821,12 @@
             "state" : "translated",
             "value" : "Snow"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "雪",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2008,6 +3837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bottom to top"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "从下到上",
+            "state" : "translated"
           }
         }
       }
@@ -2020,6 +3855,12 @@
             "state" : "translated",
             "value" : "Create wallpaper"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "创建壁纸",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2030,6 +3871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Save the file"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "保存文件",
+            "state" : "translated"
           }
         }
       }
@@ -2042,6 +3889,12 @@
             "state" : "translated",
             "value" : "Save Photo"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "保存照片",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2052,6 +3905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Middle"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "中间",
+            "state" : "translated"
           }
         }
       }
@@ -2064,6 +3923,12 @@
             "state" : "translated",
             "value" : "Sticker"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "贴纸",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2074,6 +3939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "STICKERS"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "贴纸",
+            "state" : "translated"
           }
         }
       }
@@ -2086,6 +3957,12 @@
             "state" : "translated",
             "value" : "Digit style"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "数字样式",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2096,6 +3973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "文字",
+            "state" : "translated"
           }
         }
       }
@@ -2108,6 +3991,12 @@
             "state" : "translated",
             "value" : "TEXT"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "文字",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2118,6 +4007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Transform"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "变换",
+            "state" : "translated"
           }
         }
       }
@@ -2130,6 +4025,12 @@
             "state" : "translated",
             "value" : "Remove photo"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "移除照片",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2140,6 +4041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "删除",
+            "state" : "translated"
           }
         }
       }
@@ -2152,6 +4059,12 @@
             "state" : "translated",
             "value" : "Send to background"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "置于背景",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2162,6 +4075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Multiply"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "正片叠底",
+            "state" : "translated"
           }
         }
       }
@@ -2174,6 +4093,12 @@
             "state" : "translated",
             "value" : "Exits up"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "向上移出",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2184,6 +4109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exits left"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "向左移出",
+            "state" : "translated"
           }
         }
       }
@@ -2196,6 +4127,12 @@
             "state" : "translated",
             "value" : "Exits down"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "向下移出",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2206,6 +4143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exits right"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "向右移出",
+            "state" : "translated"
           }
         }
       }
@@ -2218,6 +4161,12 @@
             "state" : "translated",
             "value" : "The file is a standard PosterBoard poster (Core Animation layers). It works through customization tools; no jailbreak required."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "该文件是标准的 PosterBoard 海报（Core Animation 图层），可通过自定义工具使用，无需越狱。",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2228,6 +4177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Background"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "背景",
+            "state" : "translated"
           }
         }
       }
@@ -2240,6 +4195,12 @@
             "state" : "translated",
             "value" : "Photo"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "照片",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2250,6 +4211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "PHOTO"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "照片",
+            "state" : "translated"
           }
         }
       }
@@ -2262,6 +4229,12 @@
             "state" : "translated",
             "value" : "Ring of copies"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "环形副本",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2272,6 +4245,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Color"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "颜色",
+            "state" : "translated"
           }
         }
       }
@@ -2284,6 +4263,12 @@
             "state" : "translated",
             "value" : "Text color"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "文字颜色",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2294,6 +4279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Digits"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "数字",
+            "state" : "translated"
           }
         }
       }
@@ -2306,6 +4297,12 @@
             "state" : "translated",
             "value" : "Digits (4)"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "数字（4）",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2316,6 +4313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Clock / passcode"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "时钟 / 密码",
+            "state" : "translated"
           }
         }
       }
@@ -2328,6 +4331,12 @@
             "state" : "translated",
             "value" : "Chip"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "芯片",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2338,6 +4347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Font"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "字体",
+            "state" : "translated"
           }
         }
       }
@@ -2350,6 +4365,12 @@
             "state" : "translated",
             "value" : "Screen"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "屏幕",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2360,6 +4381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lock Screen"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "锁定屏幕",
+            "state" : "translated"
           }
         }
       }
@@ -2372,6 +4399,12 @@
             "state" : "translated",
             "value" : "Export .tendies"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "导出 .tendies",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2382,6 +4415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Effect"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "效果",
+            "state" : "translated"
           }
         }
       }
@@ -2394,6 +4433,12 @@
             "state" : "translated",
             "value" : "Full-screen effect"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "全屏效果",
+            "state" : "translated"
+          }
         }
       }
     },
@@ -2404,6 +4449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Effects"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "效果",
+            "state" : "translated"
           }
         }
       }
