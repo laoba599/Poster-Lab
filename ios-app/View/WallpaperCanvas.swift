@@ -4,28 +4,36 @@ struct WallpaperCanvas: View {
     let project: WallpaperProject
     let size: CGSize
     var animated: Bool = true
-
     var stateProgress: Double? = nil
+    var playCustomAnimations: Bool = true
+
+    @State private var startT: TimeInterval? = nil
 
     private var scale: CGFloat { size.width / 1000 }
 
     private var anySpinning: Bool { project.layers.contains { $0.spin.enabled && !$0.isHidden } }
+    private var anyCustomAnim: Bool {
+        project.layers.contains { !$0.isHidden && $0.animations.contains { $0.keyframes.count >= 2 } }
+    }
+    private var anyAnimating: Bool { anySpinning || (playCustomAnimations && anyCustomAnim) }
 
     var body: some View {
 
-        TimelineView(.animation(paused: !(animated && anySpinning))) { timeline in
+        TimelineView(.animation(paused: !(animated && anyAnimating))) { timeline in
             let t = timeline.date.timeIntervalSinceReferenceDate
+            let elapsed = t - (startT ?? t)
             ZStack {
                 background
                 ForEach(project.layers) { layer in
                     if !layer.isHidden {
                         let st = stateEffect(layer)
-                        layerView(layer)
+                        let kf = keyframeEffect(layer, elapsed: elapsed)
+                        layerView(layer, rotation: kf.rotation)
                             .rotationEffect(spinAngle(layer, t))
-                            .scaleEffect(st.scale)
-                            .position(x: (layer.position.x + st.dx) * size.width,
-                                      y: (layer.position.y + st.dy) * size.height)
-                            .opacity(layer.opacity * st.opacity)
+                            .scaleEffect(x: st.scale * kf.scaleX, y: st.scale * kf.scaleY)
+                            .position(x: kf.positionX.map { CGFloat($0) * size.width } ?? (layer.position.x + st.dx) * size.width,
+                                      y: kf.positionY.map { CGFloat($0) * size.height } ?? (layer.position.y + st.dy) * size.height)
+                            .opacity((kf.opacity ?? layer.opacity) * st.opacity)
                     }
                 }
                 if animated, project.particles.kind != .none {
@@ -35,6 +43,7 @@ struct WallpaperCanvas: View {
             .frame(width: size.width, height: size.height)
             .clipped()
         }
+        .onAppear { if startT == nil { startT = Date().timeIntervalSinceReferenceDate } }
     }
 
     private func spinAngle(_ layer: Layer, _ t: TimeInterval) -> Angle {
@@ -42,6 +51,92 @@ struct WallpaperCanvas: View {
         let dir = layer.spin.clockwise ? 1.0 : -1.0
         let turns = (t / layer.spin.duration) * layer.spin.turns
         return .radians(dir * turns.truncatingRemainder(dividingBy: 1) * 2 * .pi)
+    }
+
+    // MARK: - Custom keyframe animations (preview playback)
+
+    /// Interpolated keyframe effects for one layer at `elapsed` seconds after the canvas appeared.
+    /// Position values are top-down editor space (X 0...390, Y 0...844), matching the exporter
+    /// after its Y flip — so the preview shows exactly what the flashed wallpaper will do.
+    private func keyframeEffect(_ layer: Layer, elapsed: TimeInterval) -> (positionX: Double?, positionY: Double?, opacity: Double?, rotation: Double?, scaleX: CGFloat, scaleY: CGFloat) {
+        guard animated, playCustomAnimations else { return (nil, nil, nil, nil, 1, 1) }
+        var posX: Double? = nil
+        var posY: Double? = nil
+        var op: Double? = nil
+        var rot: Double? = nil
+        var mulX: CGFloat = 1
+        var mulY: CGFloat = 1
+        for ca in layer.animations where ca.keyframes.count >= 2 {
+            let v = keyframeValue(ca, elapsed: elapsed)
+            switch ca.keyPath {
+            case .positionX: posX = v / 390
+            case .positionY: posY = v / 844
+            case .opacity: op = v
+            case .rotationZ: rot = v
+            case .scale:
+                let m = CGFloat(v / max(layer.scale, 0.01))
+                mulX = m
+                mulY = m
+            case .scaleX: mulX = CGFloat(v / max(layer.scale, 0.01))
+            case .scaleY: mulY = CGFloat(v / max(layer.scale, 0.01))
+            case .boundsWidth, .boundsHeight, .cornerRadius:
+                break
+            }
+        }
+        return (posX, posY, op, rot, mulX, mulY)
+    }
+
+    private func keyframeValue(_ ca: CustomAnimation, elapsed: TimeInterval) -> Double {
+        let frames = ca.keyframes
+            .map { (time: max(0, min(1, $0.time)), value: $0.value) }
+            .sorted { $0.time < $1.time }
+        guard frames.count >= 2 else { return frames.first?.value ?? 0 }
+        let p = animPhase(ca, elapsed: elapsed)
+        if p <= frames[0].time { return frames[0].value }
+        if p >= frames[frames.count - 1].time { return frames[frames.count - 1].value }
+        for i in 1..<frames.count {
+            if p <= frames[i].time {
+                let a = frames[i - 1]
+                let b = frames[i]
+                let span = max(b.time - a.time, 0.0001)
+                let local = applyTiming(ca.timing, (p - a.time) / span)
+                return a.value + (b.value - a.value) * local
+            }
+        }
+        return frames[frames.count - 1].value
+    }
+
+    /// 0...1 phase of the animation at `elapsed` seconds, honouring repeat / autoreverse.
+    private func animPhase(_ ca: CustomAnimation, elapsed: TimeInterval) -> Double {
+        let d = max(0.1, ca.duration)
+        var cycle = (elapsed + ca.timeOffset) / d
+        if ca.repeatForever {
+            if ca.autoreverses {
+                cycle = cycle.truncatingRemainder(dividingBy: 2)
+                if cycle < 0 { cycle += 2 }
+                return cycle > 1 ? 2 - cycle : cycle
+            }
+            cycle = cycle.truncatingRemainder(dividingBy: 1)
+            if cycle < 0 { cycle += 1 }
+            return cycle
+        }
+        if ca.autoreverses {
+            if cycle <= 0 { return 0 }
+            if cycle >= 2 { return 0 }
+            return cycle > 1 ? 2 - cycle : cycle
+        }
+        return min(max(cycle, 0), 1)
+    }
+
+    private func applyTiming(_ timing: AnimTimingFunction, _ p: Double) -> Double {
+        switch timing {
+        case .linear: return p
+        case .easeIn: return p * p
+        case .easeOut: return 1 - (1 - p) * (1 - p)
+        case .easeInOut:
+            if p < 0.5 { return 2 * p * p }
+            return 1 - pow(-2 * p + 2, 2) / 2
+        }
     }
 
     private func stateEffect(_ layer: Layer) -> (dx: CGFloat, dy: CGFloat, opacity: Double, scale: CGFloat) {
@@ -102,7 +197,7 @@ struct WallpaperCanvas: View {
     }
 
     @ViewBuilder
-    private func layerView(_ layer: Layer) -> some View {
+    private func layerView(_ layer: Layer, rotation: Double? = nil) -> some View {
         Group {
             switch layer.content {
             case let .text(spec):
@@ -128,7 +223,7 @@ struct WallpaperCanvas: View {
                     .scaleEffect(layer.scale)
             }
         }
-        .rotationEffect(.radians(layer.rotation))
+        .rotationEffect(.radians(rotation ?? layer.rotation))
     }
 
     @ViewBuilder
