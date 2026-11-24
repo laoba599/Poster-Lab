@@ -6,7 +6,7 @@ enum WallpaperRenderer {
 
         let pointSize = CGSize(width: 1000,
                                height: 1000 / project.device.aspect)
-        let canvas = WallpaperCanvas(project: project, size: pointSize)
+        let canvas = WallpaperCanvas(project: project, size: pointSize, playCustomAnimations: false)
         let renderer = ImageRenderer(content: canvas)
         renderer.scale = CGFloat(project.device.pixelWidth) / pointSize.width
         renderer.isOpaque = true

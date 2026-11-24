@@ -169,7 +169,7 @@ enum TendiesExporter {
             let sorted = ca.keyframes.sorted { $0.time < $1.time }
             anims.append(CAMLAnim(
                 keyPath: ca.keyPath.rawValue,
-                values: sorted.map { $0.value },
+                values: sorted.map { ca.keyPath == .positionY ? (docH - $0.value) : $0.value },
                 keyTimes: sorted.map { max(0, min(1, $0.time)) },
                 duration: max(0.1, ca.duration),
                 timeOffset: ca.timeOffset,
