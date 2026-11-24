@@ -31,8 +31,9 @@ jobs:
 
       - name: Build Rust FFI (AirliftFFI.xcframework)
         run: |
+          set -x
           export DEVELOPER_DIR=$(xcode-select -p)
-          ./build-ios.sh
+          bash -x ./build-ios.sh
 
       - name: Build unsigned IPA
         run: ./build-ipa.sh
