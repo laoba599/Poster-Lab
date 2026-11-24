@@ -29,6 +29,11 @@ jobs:
       - name: Generate Xcode project
         run: xcodegen generate
 
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-apple-ios, aarch64-apple-ios-sim
+
       - name: Build Rust FFI (AirliftFFI.xcframework)
         run: |
           set -x
